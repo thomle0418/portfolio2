@@ -1,0 +1,9 @@
+.bg-img{
+    background-image: url("./images/lake\ wiloughby2.jpg");
+    height: 800px;
+    background-repeat: no-repeat;
+}
+
+.jumbo-text{
+    margin-top: 130px;
+}
