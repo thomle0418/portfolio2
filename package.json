@@ -1,5 +1,8 @@
 {
-  "dependencies": {
-    "mdb-ui-kit": "^3.10.1"
-  }
+  "name": "mdbootstrap-pro",
+  "version": "4.19.2",
+  "main": "js/mdb.min.js",
+  "repository": "https://github.com/mdbootstrap/bootstrap-material-design.git",
+  "author": "MDBootstrap",
+  "license": "SEE LICENSE IN <License.pdf>"
 }

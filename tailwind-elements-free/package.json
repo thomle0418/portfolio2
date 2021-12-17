@@ -1,9 +1,0 @@
-{
-  "name": "tailwind-elements",
-  "version": "1.0.0-alpha1",
-  "main": "js/index.min.js",
-  "homepage": "https://tailwind-elements.com/",
-  "repository": "",
-  "author": "MDBootstrap",
-  "license": "MIT"
-}
