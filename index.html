@@ -4,9 +4,9 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <title>Material Design for Bootstrap</title>
+  <title>Thom Le's Portfolio</title>
   <!-- MDB icon -->
-  <link rel="icon" href="img/mdb-favicon.ico" type="image/x-icon">
+  <link rel="icon" href="./assets/images/3542620.png" type="image/user-typing">
   <!-- Font Awesome -->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
   <!-- Google Fonts Roboto -->
@@ -17,17 +17,42 @@
   <link rel="stylesheet" href="css/mdb.min.css">
   <!-- Your custom styles (optional) -->
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="./assets/style.css">
 </head>
 <body>
 
   <!-- Start your project here-->  
-  <div style="height: 100vh">
-    <div class="flex-center flex-column">
-      <h1 class="text-hide animated fadeIn mb-4" style="background-image: url('https://mdbootstrap.com/img/logo/mdb-transparent-250px.png'); width: 250px; height: 90px;">MDBootstrap</h1>
-      <h5 class="animated fadeIn mb-3">Thank you for using our product. We're glad you're with us.</h5>
-      <p class="animated fadeIn text-muted">MDB Team</p>
+
+  
+  <nav class="navbar navbar-dark bg-dark navbar-toggler">
+    <div class="container-fluid">
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#showMenu"
+        aria-controls="showMenu"
+        aria-expanded="false"
+        aria-label="ShowMenu"
+      >
+        <i class="fas fa-bars"></i>
+      </button>
     </div>
+  </nav>
+
+  <div class="menu collapse text-light bg-dark" id="showMenu">
+    <ul>
+      <li><a>About Me</a></li>
+      <li><a>Projects</a></li>
+      <li><a>Contact Me</a></li>
+    </ul>
   </div>
+
+
+  
+  
+
+
   <!-- End your project here-->
 
   <!-- jQuery -->
@@ -40,6 +65,6 @@
   <script type="text/javascript" src="js/mdb.min.js"></script>
   <!-- Your custom scripts (optional) -->
   <script type="text/javascript"></script>
-
+  <script type="text/javascript" src="./assets/script.js"></script>
 </body>
 </html>
