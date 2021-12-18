@@ -45,3 +45,24 @@
     padding: 100px;
 }
 
+.projectsContent{
+    height: 500px;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color:black;
+    margin: 50px;
+    padding: 100px;
+}
+
+.contactMeContent{
+    height: 500px;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color:black;
+    margin: 50px;
+    padding: 100px;
+}
