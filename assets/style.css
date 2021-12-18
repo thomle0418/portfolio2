@@ -36,7 +36,7 @@
 
 .aboutMeContent{
     height: 500px;
-    width: 100%;
+    width: 100vw;
     display: flex;
     flex-direction: row;
     align-items: center;
