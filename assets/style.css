@@ -1,3 +1,47 @@
 .menu li{
     list-style: none;
 }
+
+.section{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    /* z-index: -1; */
+}
+
+.content{
+    text-align: center;
+    font-size: 6rem;
+    color: white;
+    z-index: 1;
+}
+
+.video-container{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.profile-pic{
+    width: 220px;
+    height: 200px;
+    border-radius:50%;
+    margin: 30px;
+}
+
+.aboutMeContent{
+    height: 500px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color:black;
+    margin: 50px;
+    padding: 100px;
+}
+
