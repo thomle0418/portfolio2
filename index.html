@@ -1,117 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <title>Thom Le's Portfolio</title>
-  <!-- MDB icon -->
-  <link rel="icon" href="./assets/images/3542620.png" type="image/user-typing">
-  <!-- Font Awesome -->
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
-  <!-- Google Fonts Roboto -->
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
-  <!-- Bootstrap core CSS -->
-  <link rel="stylesheet" href="css/bootstrap.min.css">
-  <!-- Material Design Bootstrap -->
-  <link rel="stylesheet" href="css/mdb.min.css">
-  <!-- Your custom styles (optional) -->
-  <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="./assets/style.css">
-</head>
-<body>
-
-  <!-- Start your project here-->  
-
-<!-- Start of Navbar -->
-  <div class="collapse" id="navbarToggleExternalContent">
-    <div class="bg-dark p-4">
-      <h5 class="text-white h4">Menu</h5>
-      <span class="menu text-muted">
-        <ul>
-          <li><a>About Me</a></li>
-          <li><a>Projects</a></li>
-          <li><a>Contact Me</a></li>
-        </ul>
-      </span>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>Material Design for Bootstrap</title>
+    <!-- MDB icon -->
+    <link rel="icon" href="img/mdb-favicon.ico" type="image/x-icon" />
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" />
+    <!-- Google Fonts Roboto -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap"
+    />
+    <!-- MDB -->
+    <link rel="stylesheet" href="css/mdb.min.css" />
+    <link rel="stylesheet" href="./style.css">
+  </head>
+  <body>
+    <!-- Start your project here-->
+    <div class="collapse" id="navbarToggleExternalContent">
+      <div class="bg-dark p-4">
+        <h5 class="text-white h4">Menu</h5>
+        <span class="menu text-muted">
+          <ul>
+            <li><a>About Me</a></li>
+            <li><a>Projects</a></li>
+            <li><a>Contact Me</a></li>
+          </ul>
+        </span>
+      </div>
     </div>
-  </div>
-  <nav class="navbar navbar-dark bg-dark">
-    <div class="container-fluid">
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-toggle="collapse"
-        data-target="#navbarToggleExternalContent"
-        aria-controls="navbarToggleExternalContent"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
-        <i class="fas fa-bars"></i>
-      </button>
-    </div>
-  </nav>
-
-  <div class="section">
-
-    <div class="content">
-      <h1>Welcome, my name is</h1>
-      <h1>Thom Le</h1>
-      <h1>I am a web developer</h1>
+    <nav class="navbar navbar-dark bg-dark">
+      <div class="container-fluid">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-mdb-toggle="collapse"
+          data-mdb-target="#navbarToggleExternalContent"
+          aria-mdb-controls="navbarToggleExternalContent"
+          aria-mdb-expanded="false"
+          aria-mdb-label="Toggle navigation"
+        >
+          <i class="fas fa-bars"></i>
+        </button>
+      </div>
+    </nav>
+  
+    <div class="section">
+  
+      <div class="content">
+        <h1>Welcome, my name is</h1>
+        <h1>Thom Le</h1>
+        <h1>I am a web developer</h1>
+      </div>
+      
+      <div class="video-container">
+        <video autoplay loop muted poster="./assets/images/network.PNG ">
+          <source src="./assets/videos/Network - 12716.mp4" type="video/mp4"></source>
+        </video>
+      </div>
+    
     </div>
     
-    <div class="video-container">
-      <video autoplay loop muted poster="./assets/images/network.PNG ">
-        <source src="./assets/videos/Network - 12716.mp4" type="video/mp4"></source>
-      </video>
-    </div>
-  
-  </div>
-  
-  <div class="aboutMe">
-    <div class="aboutMeContent">
-      <img class="profile-pic" src="./assets/images/img.png" alt="Profile Picture">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio molestias vel repudiandae fugit quis expedita quas ducimus, enim reprehenderit molestiae? <br>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo adipisci dicta amet assumenda ad! Incidunt iste molestiae quidem dolorem architecto. <br>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, blanditiis! Fugit, consectetur! Ratione cumque eaque nobis dolor temporibus minus blanditiis!</p>
-    </div>
     
-  </div>
+      <div class="aboutMeContent"
+      data-mdb-toggle="animation"
+      data-mdb-animation-start="onScroll"
+      data-mdb-animation-on-scroll="repeat"
+      data-mdb-animation="slide-in-left">
+        <img class="profile-pic" src="./assets/images/img.png" alt="Profile Picture">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio molestias vel repudiandae fugit quis expedita quas ducimus, enim reprehenderit molestiae? <br>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo adipisci dicta amet assumenda ad! Incidunt iste molestiae quidem dolorem architecto. <br>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, blanditiis! Fugit, consectetur! Ratione cumque eaque nobis dolor temporibus minus blanditiis!</p>
+      </div>
 
-  <div class="projects">
-    <div class="projectsContent">      
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio molestias vel repudiandae fugit quis expedita quas ducimus, enim reprehenderit molestiae? <br>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo adipisci dicta amet assumenda ad! Incidunt iste molestiae quidem dolorem architecto. <br>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, blanditiis! Fugit, consectetur! Ratione cumque eaque nobis dolor temporibus minus blanditiis!</p>
-    </div>
-    
-  </div>
+    <!-- End your project here-->
 
-  <div class="contactMe">
-    <div class="contactMeContent">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio molestias vel repudiandae fugit quis expedita quas ducimus, enim reprehenderit molestiae? <br>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo adipisci dicta amet assumenda ad! Incidunt iste molestiae quidem dolorem architecto. <br>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, blanditiis! Fugit, consectetur! Ratione cumque eaque nobis dolor temporibus minus blanditiis!</p>
-    </div>
-    
-  </div>
-
-  
-  
-
-
-  <!-- End your project here-->
-
-  <!-- jQuery -->
-  <script type="text/javascript" src="js/jquery.min.js"></script>
-  <!-- Bootstrap tooltips -->
-  <script type="text/javascript" src="js/popper.min.js"></script>
-  <!-- Bootstrap core JavaScript -->
-  <script type="text/javascript" src="js/bootstrap.min.js"></script>
-  <!-- MDB core JavaScript -->
-  <script type="text/javascript" src="js/mdb.min.js"></script>
-  <!-- Your custom scripts (optional) -->
-  <script type="text/javascript"></script>
-  <script type="text/javascript" src="./assets/script.js"></script>
-</body>
+    <!-- MDB -->
+    <script type="text/javascript" src="js/mdb.min.js"></script>
+    <!-- Custom scripts -->
+    <script type="text/javascript"></script>
+    <script src="script.js"></script>
+  </body>
 </html>
