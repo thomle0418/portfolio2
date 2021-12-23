@@ -1,4 +1,6 @@
-
+html{
+    scroll-behavior: smooth;
+}
 .menu li{
     list-style: none;
 }
