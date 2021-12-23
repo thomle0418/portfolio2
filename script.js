@@ -1,4 +1,4 @@
-const aboutMe= document.querySelector(".aboutMeContent");
+const aboutMe= document.querySelector(".aboutMe");
 const learnMore= document.querySelector(".btn")
 
 displayAboutMe=()=>{
