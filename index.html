@@ -19,6 +19,7 @@
     <!-- Local CSS -->
     <link rel="stylesheet" href="./style.css">
   </head>
+
   <body>
     <!-- NavBar-->
     <div class="collapse" id="navbarToggleExternalContent">
@@ -50,28 +51,24 @@
     </nav>
   <!-- Video Hero -->
     <div class="section">
-  
       <div class="content">
         <h1>Welcome, my name is</h1>
         <h1>Thom Le</h1>
         <h1>I am a web developer</h1>
-        
-        <a href="#aboutMe"><button class="btn">Learn More</button></a>
-      
+        <a href="#aboutMe"><button class="aboutMe-button btn">Learn More</button></a>
       </div>
 
   <!-- video container -->
       
-      <div class="video-container">
+    <div class="video-container">
         <video autoplay loop muted poster="./assets/images/network.PNG ">
           <source src="./assets/videos/Network - 12716.mp4" type="video/mp4"></source>
         </video>
       </div>
-    
     </div>
     
   <!-- About Me Section -->
-      <div id="aboutMe" class="aboutMe d-none"
+    <div id="aboutMe" class="aboutMe d-none"
       data-mdb-toggle="animation"
       data-mdb-animation-start="onScroll"
       data-mdb-animation-on-scroll="repeat"
@@ -86,6 +83,26 @@
         </p>
         <a href="#projects"><button class="btn projects-button">Learn More</button></a>
       </div>
+    </div>
+
+<!-- Projects section -->
+
+<div class="projectCards container">
+  <div class="card" style="width: 18rem;">
+    <img
+      src="https://mdbcdn.b-cdn.net/img/new/standard/nature/182.webp"
+      class="card-img-top"
+      alt="Sunset Over the Sea"
+    />
+    <div class="card-body">
+      <p class="card-text">
+        Some quick example text to build on the card title and make up the bulk of the
+        card's content.
+      </p>
+    </div>
+  </div>
+</div>
+  
 
     <!-- End your project here-->
 
