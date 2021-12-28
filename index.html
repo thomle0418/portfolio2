@@ -22,18 +22,6 @@
 
   <body>
     <!-- NavBar-->
-    <div class="collapse" id="navbarToggleExternalContent">
-      <div class="bg-dark p-4">
-        <h5 class="text-white h4">Menu</h5>
-        <span class="menu text-muted">
-          <ul>
-            <li><a href="#aboutMe">About Me</a></li>
-            <li><a>Projects</a></li>
-            <li><a>Contact Me</a></li>
-          </ul>
-        </span>
-      </div>
-    </div>
     <nav class="navbar navbar-dark bg-dark fixed-top">
       <div class="container-fluid">
         <button
@@ -49,6 +37,18 @@
         </button>
       </div>
     </nav>
+    <div class="collapse" id="navbarToggleExternalContent">
+      <div class="bg-dark p-4">
+        <h5 class="text-white h4">Menu</h5>
+        <span class="menu text-muted">
+          <ul>
+            <li><a href="#aboutMe">About Me</a></li>
+            <li><a>Projects</a></li>
+            <li><a>Contact Me</a></li>
+          </ul>
+        </span>
+      </div>
+    </div>
   <!-- Video Hero -->
     <div class="section">
       <div class="content">
@@ -88,7 +88,13 @@
 <!-- Projects section -->
 
 <div id="projects" class="projectCard d-none d-flex justify-content-around row row-cols-1 row-cols-md-3 g-4">
-  <div class="col">
+  
+  <div class="col"
+      data-mdb-toggle="animation"
+      data-mdb-animation-start="onScroll"
+      data-mdb-animation-on-scroll="repeat"
+      data-mdb-animation="fade-in"
+      data-mdb-animation-delay="500">
     <div class="card h-100">
       <img
         src="./Assets/Images/pokemon project screenshot.png"
@@ -114,7 +120,12 @@
     </div>
   </div>
 
-  <div class="col">
+  <div class="col"
+  data-mdb-toggle="animation"
+      data-mdb-animation-start="onScroll"
+      data-mdb-animation-on-scroll="repeat"
+      data-mdb-animation="fade-in"
+      data-mdb-animation-delay="800">
     <div class="card h-100">
       <img
         src="./Assets/Images/Password Generator screenshot.PNG"
@@ -141,7 +152,12 @@
     </div>
   </div>
 
-  <div class="col">
+  <div class="col"
+      data-mdb-toggle="animation"
+      data-mdb-animation-start="onScroll"
+      data-mdb-animation-on-scroll="repeat"
+      data-mdb-animation="fade-in"
+      data-mdb-animation-delay="1100">
     <div class="card h-100">
       <img
         src="./Assets/Images/SEO Refactoring project.png"
