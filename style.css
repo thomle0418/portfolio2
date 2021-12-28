@@ -61,6 +61,17 @@ html{
     margin-right:0;
     margin-bottom: 50px;
 }
+.card-body a{
+    word-wrap: break-word;
+}
+.card-img-top{
+    height: 150px;
+    object-fit: contain;
+}
+.language-icons{
+    display: flex;
+    justify-content: space-around;
+}
 
 
 
