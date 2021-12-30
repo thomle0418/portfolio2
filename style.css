@@ -30,7 +30,7 @@ html{
 }
 
 .btn:hover{
-    color:red;
+    color:rgb(63, 63, 212);
 }
 .video-container{
     position: absolute;
