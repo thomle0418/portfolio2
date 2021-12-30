@@ -2,6 +2,7 @@ const aboutMe= document.querySelector(".aboutMe");
 const learnMore= document.querySelector(".btn");
 const projectCard= document.querySelector(".projectCard")
 const projectButton= document.querySelector(".projectButton");
+const contactMe= document.querySelector(".contactMe");
 
 
 displayAboutMe=()=>{
@@ -15,6 +16,8 @@ displayProjectCard=()=>{
     projectCard.classList.remove("d-none");
 }
 projectButton.addEventListener("click",displayProjectCard);
+
+
 
 
 
